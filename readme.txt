@@ -11,14 +11,13 @@ A tiny plugin to compose and send a custom emails from your wp-admin.
 == Description ==
 
 A tiny plugin to compose and send a custom emails from your wp-admin. 
-If you want to rework with the code, fine take a look at here before start usging this code, It will be helpful to work with your own project.<a href="http://kvcodes.com/2014/05/integrate-recaptcha-wordpress-registration-page/" target="blank" > Kvcodes.com </a> 
+If you want to rework with the code, fine take a look at here before start usging this code, It will be helpful to work with your own project.<a href="http://kvcodes.com/" target="blank" > Kvcodes.com </a> 
 
 
 = Features =
 * Easy Mail compose
 * Easy to send mail from your WordPRess Dashboard. 
 * Simple Set-up, Less space consuming
-
 
  
 
