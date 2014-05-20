@@ -167,7 +167,7 @@ function kv_admin_email() {
 	<?php   if($success != '') { 
 		echo '<tr><td colspan="2"  > <h4 style=" border: 1px solid green; background-color:#CFF8E6; padding: 10px; width: 50%; ">'.$success.'</h4> </td> </tr>' ; 
 		} ?>
-	<tr> <td> To: </td><td> 	<div id="single_email" > <input type="text" align="left" name="receiver_email" size="60%" value="<?php echo $usr_email ; ?>"> </div> 	</td>  </tr>
+	<tr> <td> To: </td><td> 	<div id="single_email" > <input type="email" align="left" name="receiver_email" size="60%" value="<?php echo $usr_email ; ?>"> </div> 	</td>  </tr>
 	<tr> <td> Subject: </td>    <td> <input type="text" align="left" name="subj" size="80%" value="<?php echo $subject ;?>" ></td></tr>     
 	<tr> <td> Message: </td> 	<td align="left">  <?php $args = array("textarea_name" => "email_body", "textarea_name" => "email_body", "textarea_rows" => "22", "teeny" => true, "media_buttons" => true , "quicktags" =>false);
 	wp_editor( $pre_msg, "email_body", $args ); ?>  </td></tr>
