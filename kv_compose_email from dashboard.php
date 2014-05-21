@@ -130,6 +130,11 @@ function kv_get_web_page( $url )
 	$header['content'] = $content;
 	return $header;
 }
+add_action( 'admin_print_styles', 'kv_admin_css' );
+function kv_admin_css() {
+	 wp_enqueue_style("kvcodes_admin", KV_COMPOSE_EMAIL_URL."/kv_admi_style.css", false, "1.0", "all");
+
+}
 } else {
 	function kv_admin_submenu_email() { 		
 		add_submenu_page( 'kvcodes', 'KV Admin Email', 'KV Admin Email', 'manage_options', 'kv_email', 'kv_admin_email' );
@@ -137,11 +142,7 @@ function kv_get_web_page( $url )
 add_action('admin_menu', 'kv_admin_submenu_email');
 	
 }
-add_action( 'admin_print_styles', 'kv_admin_css' );
-function kv_admin_css() {
-	 wp_enqueue_style("kvcodes_admin", KV_COMPOSE_EMAIL_URL."/kv_admi_style.css", false, "1.0", "all");
 
-}
 
 function kv_admin_email() {
 	if( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['action'] ) &&  $_POST['action'] == "kv_send_mail") {
