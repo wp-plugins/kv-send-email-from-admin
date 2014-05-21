@@ -1,6 +1,6 @@
 === Kv Compose Email From Dashboard ===
 Contributors: kvvaradha
-Donate link: http://kvcodes.com 
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=kvvaradha@gmail.com&item_name=KV Compose Email From Dashboard
 Tags: admin email compose, send emails from dashboard, 
 Requires at least: 3.1
 Tested up to: 3.9.1
