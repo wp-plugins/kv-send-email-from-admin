@@ -2,7 +2,7 @@
 /*
 Plugin Name: Kv Compose Email From Dashboard
 Plugin URI: https://kvcodes.com.com	
-Description: A tiny plugin to compose and send a custom emails from your wp-admin. 
+Description: A tiny plugin to compose and send a custom emails from your wp-admin.  <a href="http://www.kvcodes.com" target="_blank" > Read more </a> 
 Version: 1.0
 Author: Kvvaradha
 Author URI: http://www.kvcodes.com
